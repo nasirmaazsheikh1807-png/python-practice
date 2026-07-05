@@ -6,4 +6,7 @@ This Repository contains my Python Learning Journey
 * Functions
 * Strings
 * Lists
+
+##Day 1
+Learned Git and Github basics
 Created By : Nasirmaaz Sheikh
