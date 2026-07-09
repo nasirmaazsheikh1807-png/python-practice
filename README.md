@@ -13,5 +13,9 @@ Learned Git and Github basics
 Programmed a Basic Calculator
 ##Day 3
 Programmed a palindrom number detector.
+##Day 4
+Programmed a Prime Number Checker.
+##Day 5
+Programmed a greeting program and fibonacci sequence and factorial number program.
 
 Created By : Nasirmaaz Sheikh
