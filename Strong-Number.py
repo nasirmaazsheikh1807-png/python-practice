@@ -15,7 +15,7 @@ while temp > 0:
 if total == n:
     print(n, "is a Strong Number")
 else:
-    print(n, "is not a Strong NUmber")
+    print(n, "is not a Strong Number")
 
 
 
