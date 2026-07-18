@@ -25,5 +25,13 @@ Programmed Automorphic number and Perfect Number Program.
 Programmed Neon number , Spy Number and Harshad Number Checker Program.
 ##Day 9
 Programmed Disarium Number , Duck Number and Peterson Number Checker Programs.
+##Day 10
+Programmed Harshad , Tech and Happy Number.
+##Day 11
+Programmed Sunny , Evil Number, Now List Operations Started: Finding Out The Largest Number in the List, Sum Of All The Number Of The List. , Average of All The Number Of The List , Second Largest Number Of The List.
+##Day 12
+Reverse The List, Smallest Number Of the List, Second Smallest Number Of The List.
+##Day 13
+Even Odd List, Remove Duplicates In The Lists , Frequency Counter , Duplicate Number Finder in the List, Missing Number in The List
 
 Created By : Nasirmaaz Sheikh
