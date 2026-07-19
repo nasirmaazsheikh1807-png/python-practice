@@ -32,6 +32,11 @@ Programmed Sunny , Evil Number, Now List Operations Started: Finding Out The Lar
 ##Day 12
 Reverse The List, Smallest Number Of the List, Second Smallest Number Of The List.
 ##Day 13
-Even Odd List, Remove Duplicates In The Lists , Frequency Counter , Duplicate Number Finder in the List, Missing Number in The List
+Even Odd List, Remove Duplicates In The Lists , Frequency Counter , Duplicate Number Finder in the List, Missing Number in The List.
+##Day 14
+Rotate List left By One ,Rotate List Right By One, Check Whether Two Lists Are equal.
+##Day 15 
+Count Vowels and Consonants, Reverse String.
+
 
 Created By : Nasirmaaz Sheikh
