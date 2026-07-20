@@ -37,6 +37,9 @@ Even Odd List, Remove Duplicates In The Lists , Frequency Counter , Duplicate Nu
 Rotate List left By One ,Rotate List Right By One, Check Whether Two Lists Are equal.
 ##Day 15 
 Count Vowels and Consonants, Reverse String.
-
+##Day 16
+Pallindrome String, Character Frequency in String, Remove Duplicate Characters, Count Words In Sentence.
+##Day 17
+Largest Word In A Sentence , Smallest Word In a Sentence
 
 Created By : Nasirmaaz Sheikh
