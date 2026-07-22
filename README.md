@@ -43,5 +43,7 @@ Pallindrome String, Character Frequency in String, Remove Duplicate Characters, 
 Largest Word In A Sentence , Smallest Word In a Sentence
 ##Day 18
 Count : Alphabet , Digit , Special Characters In a String. , Convert Uppercase into Lowercase And UpperCase Into Lower case Without Changing The Digits And Special Characters.
+##Day 19
+Added Space Corrector in string.
 
 Created By : Nasirmaaz Sheikh
