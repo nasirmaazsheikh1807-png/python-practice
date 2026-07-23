@@ -45,5 +45,7 @@ Largest Word In A Sentence , Smallest Word In a Sentence
 Count : Alphabet , Digit , Special Characters In a String. , Convert Uppercase into Lowercase And UpperCase Into Lower case Without Changing The Digits And Special Characters.
 ##Day 19
 Added Space Corrector in string.
+##Day 20 
+Implemented capitalize Every Letter of Every Word and Implemented reverse every word in a string
 
 Created By : Nasirmaaz Sheikh
