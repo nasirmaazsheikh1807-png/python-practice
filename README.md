@@ -46,6 +46,10 @@ Count : Alphabet , Digit , Special Characters In a String. , Convert Uppercase i
 ##Day 19
 Added Space Corrector in string.
 ##Day 20 
-Implemented capitalize Every Letter of Every Word and Implemented reverse every word in a string
+Implemented capitalize Every Letter of Every Word and Implemented reverse every word in a string.
+##Day 21
+Sum Of All The Numbers In Tuple And Frequency Of The Number In The Tuple.
+##Day 22
+Frequency of the number in tuple , Reverse the tuple, Remove Duplicates from the tuple.
 
 Created By : Nasirmaaz Sheikh
