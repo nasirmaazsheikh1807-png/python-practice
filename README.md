@@ -51,5 +51,7 @@ Implemented capitalize Every Letter of Every Word and Implemented reverse every 
 Sum Of All The Numbers In Tuple And Frequency Of The Number In The Tuple.
 ##Day 22
 Frequency of the number in tuple , Reverse the tuple, Remove Duplicates from the tuple.
+##Day 23
+Second Largest number in the tuple.
 
 Created By : Nasirmaaz Sheikh
