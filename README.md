@@ -53,5 +53,7 @@ Sum Of All The Numbers In Tuple And Frequency Of The Number In The Tuple.
 Frequency of the number in tuple , Reverse the tuple, Remove Duplicates from the tuple.
 ##Day 23
 Second Largest number in the tuple.
+##Day 24
+Second Smallest in Tuple , Find Common Elements between two tuples
 
 Created By : Nasirmaaz Sheikh
