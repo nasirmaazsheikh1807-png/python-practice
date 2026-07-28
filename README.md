@@ -54,6 +54,8 @@ Frequency of the number in tuple , Reverse the tuple, Remove Duplicates from the
 ##Day 23
 Second Largest number in the tuple.
 ##Day 24
-Second Smallest in Tuple , Find Common Elements between two tuples
+Second Smallest in Tuple , Find Common Elements between two tuples.
+##Day 25
+Merge Two Tuples Without Duplicates, Find Elements Present In Only One Tuple.
 
 Created By : Nasirmaaz Sheikh
