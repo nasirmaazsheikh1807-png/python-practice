@@ -57,5 +57,7 @@ Second Largest number in the tuple.
 Second Smallest in Tuple , Find Common Elements between two tuples.
 ##Day 25
 Merge Two Tuples Without Duplicates, Find Elements Present In Only One Tuple.
+##Day 26
+Tuple Rotation By One Position, Most Frequent Element In The Tuple, Move All Zeros To The End In The Tuple.
 
 Created By : Nasirmaaz Sheikh
