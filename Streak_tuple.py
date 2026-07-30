@@ -3,7 +3,6 @@ n = (1,1,1,2,2,5,5,5,5,3,3,3)
 streak = ()
 element = n[0],
 count = 0
-previous = n[0]
 for i in n:
     if element[-1] == i:
         count += 1
