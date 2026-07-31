@@ -59,5 +59,9 @@ Second Smallest in Tuple , Find Common Elements between two tuples.
 Merge Two Tuples Without Duplicates, Find Elements Present In Only One Tuple.
 ##Day 26
 Tuple Rotation By One Position, Most Frequent Element In The Tuple, Move All Zeros To The End In The Tuple.
+##Day 27
+Split Even Odd Element In Tuple, Remove Consecutive Duplicate, Find The Longest Consecutive Streak
+##Day 28
+Longest Cosecutive Streak In Tuple , Second Longest Consecutive Streak in Tuple.
 
 Created By : Nasirmaaz Sheikh
