@@ -15,4 +15,10 @@ while i < len(a) and j < len(b):
         new += a[i],
         j += 1
         i += 1
+while i < len(a):
+    new += a[i],
+    i += 1
+while j < len(b):
+    new += b[j],
+    j += 1
 print(new)
