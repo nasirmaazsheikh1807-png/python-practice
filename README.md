@@ -63,5 +63,9 @@ Tuple Rotation By One Position, Most Frequent Element In The Tuple, Move All Zer
 Split Even Odd Element In Tuple, Remove Consecutive Duplicate, Find The Longest Consecutive Streak
 ##Day 28
 Longest Cosecutive Streak In Tuple , Second Longest Consecutive Streak in Tuple.
+##Day 29
+Rotate Tuple By K Position , Find One Missing Number In The Tuple, Find All The Missing Number In The Tuple.
+##Day 30
+Merge Two Sorted Tuples Using Two Pointers, Handle Remaining Elements, Handle Equal Elements.
 
 Created By : Nasirmaaz Sheikh
