@@ -151,6 +151,10 @@ Give It a ⭐ on Github
 - Word Frequency Using Dict. 
 - First Unique Character Using Dict.
 - Duplicate Character Using Dict.
+## Day 32
+- Find All Non Repeating Characters.
+- Group By Words By Length
+
 
 
 --  
