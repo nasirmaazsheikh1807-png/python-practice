@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-31_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-33_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -154,7 +154,11 @@ Give It a ⭐ on Github
 ## Day 32
 - Find All Non Repeating Characters.
 - Group By Words By Length
-
+## Day 33
+- Invert A Dictionary.
+- Merge Two Dictionaries.
+- Find The Key With Maximum Value.
+- Group Students By Grade.
 
 
 --  
