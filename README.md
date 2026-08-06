@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-33_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-34_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -159,6 +159,10 @@ Give It a ⭐ on Github
 - Merge Two Dictionaries.
 - Find The Key With Maximum Value.
 - Group Students By Grade.
+## Day 34 
+- Count Vowels Using Dictionary.
+- Count Consonants using Dictionary.
+- Compare Two Dictionary If They Are Equal Or Not.
 
 
 --  
