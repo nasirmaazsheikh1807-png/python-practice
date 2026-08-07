@@ -163,6 +163,18 @@ Give It a ⭐ on Github
 - Count Vowels Using Dictionary.
 - Count Consonants using Dictionary.
 - Compare Two Dictionary If They Are Equal Or Not.
+## Day 35
+- Basic Set Operations.
+- Find Common Elements.
+- Count Common Elements.
+- Check if Common Elements Exists.
+- Set Difference.
+- Symmetric Difference.
+- Square of Elements in Set.
+- Find Even Numbers in Set.
+- Cube of Common Elements.
+- Remove Duplicates from Lists Using Set.
+
 
 
 --  
