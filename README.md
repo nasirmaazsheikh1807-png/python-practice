@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-34_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-36_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -174,6 +174,15 @@ Give It a ⭐ on Github
 - Find Even Numbers in Set.
 - Cube of Common Elements.
 - Remove Duplicates from Lists Using Set.
+## Day 36
+- Union Of Two Sets.
+- Check Whether One Set is a Subset of Another.
+- Check if Two Sets Are Equal Or Not.
+- Check If Two Sets Are Disjoint.
+- Check Whether One Set is a Proper Subset Of Another.
+- Find The Largest Common Element Between Two Sets.
+- Check If Two Sets Have Exactly One Common Element.
+
 
 
 
