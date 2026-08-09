@@ -182,7 +182,18 @@ Give It a ⭐ on Github
 - Check Whether One Set is a Proper Subset Of Another.
 - Find The Largest Common Element Between Two Sets.
 - Check If Two Sets Have Exactly One Common Element.
-
+## Day 37
+- open()
+- Read mode "r"
+- Write Mode "w"
+- Append Mode "a"
+- read()
+- write()
+- readline()
+- readlines()
+- with open() as file
+- Reading file line as line
+- Using Loops And conditions with files
 
 
 
