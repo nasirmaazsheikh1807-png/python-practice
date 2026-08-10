@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-36_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-38_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -194,6 +194,14 @@ Give It a ⭐ on Github
 - with open() as file
 - Reading file line as line
 - Using Loops And conditions with files
+## Day 38
+- try
+- except
+- ZeroDivisionError
+- ValueError
+- FileNotFoundError
+- Handling Invalid Output
+- Handling Division Errors
 
 
 
