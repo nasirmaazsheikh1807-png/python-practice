@@ -202,6 +202,19 @@ Give It a ⭐ on Github
 - FileNotFoundError
 - Handling Invalid Output
 - Handling Division Errors
+## Day 39
+- Different Types Of Functions in Python.
+- Functions With Parameters.
+- Functions With Default Arguments.
+- Returning Values From Functions.
+- Factorial Using a Loop.
+- Power Calculation Using A Loop.
+- Prime Number Checking.
+- Sum Of Two Numbers Using Recursion.
+- Factorial Using Recursion.
+- Fibonacci Series Using Recursion.
+- Simple Calculator Using Functions
+
 
 
 
