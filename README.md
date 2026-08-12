@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-38_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-40_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -214,6 +214,19 @@ Give It a ⭐ on Github
 - Factorial Using Recursion.
 - Fibonacci Series Using Recursion.
 - Simple Calculator Using Functions
+## Day 40
+- Practiced Python Lambda Functions And Their Use With Buit-in Functional Tools.
+- Lambda Functions.
+- Lambda With Conditional Expressions (ternary operator)
+- 'map()' with lambda.
+- 'fiter()' with lambda.
+- 'sorted()' with lambda.
+- 'zip()' with lambda.
+- 'all()' and 'any()' for checking conditions.
+- Basic python Functions Done USing Lambda Function. 
+- Lambda Functions Are Usefull When a small, one-time function is required , especially with function like 'map()','filter()','reduce()',and 'sorted()'.     
+Not Every function needs a lambda - 'zip()' itself doesn't require one.
+
 
 
 
