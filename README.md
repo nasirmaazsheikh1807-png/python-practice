@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-40_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-41_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -226,6 +226,24 @@ Give It a ⭐ on Github
 - Basic python Functions Done USing Lambda Function. 
 - Lambda Functions Are Usefull When a small, one-time function is required , especially with function like 'map()','filter()','reduce()',and 'sorted()'.     
 Not Every function needs a lambda - 'zip()' itself doesn't require one.
+## Day 41
+- Python Modules And Random Modules.
+- Learned how To create And Import Custom Modules.
+- Used 'From modules import function' syntax.
+- Worked With Python's buit-in 'math' module:
+- 'ceil()'
+- 'floor()'
+- 'pow()'
+- 'factorial()'
+- Worked With Python's 'random' module:
+- 'randint()'
+- 'choice()'
+- 'shuffle()'
+- 'sample()'
+- Built a Simple number Guessing game Using 'random.randint()'
+- Built a Random food Selector Using 'random.choice()'
+- Practiced shuffling lists with 'random.shuffle()'
+- Practiced selecting multiple unique random elements with 'random.sample()'.
 
 
 
