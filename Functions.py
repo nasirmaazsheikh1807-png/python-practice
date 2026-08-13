@@ -1,19 +1,33 @@
 print("Creating Different Types Of Functions")
+import math
+def sqrt(a):
+    sqrt = math.sqrt(a)
+    return sqrt
+def ceil(a):
+    ceil = math.ceil(a)
+    return ceil
+def floor(a):
+    floor = math.floor(a)
+    return floor
 def square(a):
     sq = a**2
-    print(sq)
-try:
-    n = int(input("Enter A Number: "))
-    # m = int(input("Enter Another Number: "))
-    # operation = input("Enter a Operation: ")
-except ValueError:
-    print("Invalid Input! Enter A Valid Input.")
+    return sq
+# try:
+#     n = int(input("Enter A Number: "))
+#     m = int(input("Enter Another Number: "))
+#     operation = input("Enter a Operation: ")
+# except ValueError:
+#     print("Invalid Input! Enter A Valid Input.")
+n = 0
 def cube(a):
     cb = a**3
     return cb
 def sum(a,b):
     sum = a+b
-    print(sum)
+    return sum
+def multiply(a,b):
+    multiply = a*b
+    return multiply
 def even_odd(a):
     if n % 2 == 0:
         return "even"
@@ -83,4 +97,3 @@ def fibonacci(a):
         return 1
     return fibonacci(a-1) + fibonacci(a-2)
 result = fibonacci(n)
-print(result)
