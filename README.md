@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-41_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-42_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -244,6 +244,16 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 - Built a Random food Selector Using 'random.choice()'
 - Practiced shuffling lists with 'random.shuffle()'
 - Practiced selecting multiple unique random elements with 'random.sample()'.
+## Day 42
+- Python Modules 
+- 'random' module.
+- 'datetime' module.
+- 'date', 'time',and 'datetime'.
+- 'strftime()' and 'strptime()'
+- 'timedelta'
+- Date Difference.
+- 'datetime.combine()'
+
 
 
 
