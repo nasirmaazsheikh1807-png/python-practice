@@ -65,9 +65,44 @@ print("Modules")
 
 
 # Class Time.
-from datetime import time , date , datetime
-t = time(14,30,45)
-d = date.today()
-dt = datetime.combine(d,t)
-print(dt)
+# from datetime import time , date , datetime
+# t = time(14,30,45)
+# d = date.today()
+# dt = datetime.combine(d,t)
+# print(dt)
 # print(t)
+
+#OS Module.
+import os
+current = os.getcwd()
+# print(os.listdir())
+# print(os.path.exists("prototype.py"))
+# print(os.path.isdir("."))
+path = os.path.join(current, "prototype.py")
+# print(os.path.basename(path)) #gives File Name
+# print(os.path.dirname(path))#gives file path
+# print(os.path.getsize(path)) #gives File Size in bytes
+# print(os.path.splitext(path)) #Split File Text
+# print(os.path.getctime(path)) #get file creation time
+# print(os.path.getmtime(path)) #it gives file last modified time
+# print(os.path.abspath(path)) #it returns Absolute path of the file
+# print(os.path.relpath(path)) #it return relative path 
+# print(os.path.normpath(path)) #it cleans and normalize the path
+path1 = os.path.join(current,"Modules.py")
+# print(os.path.commonpath([path,path1])) #returns common path untill change.
+# print(os.path.commonprefix([path,path1])) #Returns Common Starting Path
+# print(os.path.isabs(path)) #it checks whether the path is absolute
+# print(os.path.islink(path)) #it checks whether the path is symbolic linked or not
+# print(os.path.isfile(path)) #it checks whether the given file is actual file or not
+# print(os.path.isdir(path)) #it checks whether the file is dir/folder or not
+# os.mkdir("day43_test")
+os.rmdir("day43_test")
+
+
+
+
+
+
+
+
+
