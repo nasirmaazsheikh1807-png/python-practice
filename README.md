@@ -253,7 +253,27 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 - 'timedelta'
 - Date Difference.
 - 'datetime.combine()'
-
+## day 43
+- os Module.
+- 'os.getcwd()'
+- os.getcwd() — get current working directory
+- os.listdir() — list directory contents
+- os.path.exists() — check whether a path exists
+- os.path.isdir() — check whether path is a directory
+- os.path.basename() — get file name
+- os.path.dirname() — get directory path
+- os.path.getsize() — get file size
+- os.path.splitext() — split file name and extension
+- os.path.getctime() — get creation time
+- os.path.getmtime() — get last modified time
+- os.path.abspath() — get absolute path
+- os.path.relpath() — get relative path
+- os.path.normpath() — normalize a path
+- os.path.commonpath() — find common path
+- os.path.commonprefix() — find common starting prefix
+- os.mkdir() — create a directory
+- os.rmdir() — remove an empty directory.
+- Created a test directory using os.mkdir() and then removed it using os.rmdir().
 
 
 

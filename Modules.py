@@ -95,8 +95,8 @@ path1 = os.path.join(current,"Modules.py")
 # print(os.path.islink(path)) #it checks whether the path is symbolic linked or not
 # print(os.path.isfile(path)) #it checks whether the given file is actual file or not
 # print(os.path.isdir(path)) #it checks whether the file is dir/folder or not
-# os.mkdir("day43_test")
-os.rmdir("day43_test")
+# os.mkdir("day43_test") # Creates a Folder on The given Path
+# os.rmdir("day43_test") #Deletes the Folder.
 
 
 
