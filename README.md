@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-42_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-44_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -253,9 +253,8 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 - 'timedelta'
 - Date Difference.
 - 'datetime.combine()'
-## day 43
+## Day 43
 - os Module.
-- 'os.getcwd()'
 - os.getcwd() — get current working directory
 - os.listdir() — list directory contents
 - os.path.exists() — check whether a path exists
@@ -274,6 +273,19 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 - os.mkdir() — create a directory
 - os.rmdir() — remove an empty directory.
 - Created a test directory using os.mkdir() and then removed it using os.rmdir().
+## Day 44
+- os Module.
+- os.chdir() — change current working directory
+- .. — move to the parent directory
+- os.makedirs() — create nested directories
+- os.removedirs() — remove nested empty directories
+- os.rename() — rename files/directories
+- os.replace() — replace/rename files or directories
+- os.walk() — recursively traverse directories
+- os.scandir() — iterate through directory entries
+- os.stat() — retrieve file metadata
+- os.environ — access environment variables
+- os.system() — execute an OS command
 
 
 
