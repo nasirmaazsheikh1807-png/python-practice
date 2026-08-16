@@ -97,10 +97,39 @@ path1 = os.path.join(current,"Modules.py")
 # print(os.path.isdir(path)) #it checks whether the file is dir/folder or not
 # os.mkdir("day43_test") # Creates a Folder on The given Path
 # os.rmdir("day43_test") #Deletes the Folder.
+# print(os.getcwd())
+# os.chdir("..") #Changes The Directory
+# print(os.getcwd())
+# os.makedirs("test1/test2") #make Folders
+# os.removedirs("test1/test2") #remove Folders 
+# os.rename("Actualname","Newname") #renames folder
+#os.replace("oldname","newname") #replace folders
+# for root , dirs,files in os.walk("."):  #Shows All the Folders Recursivelly
+#     print(root)
+#     print(dirs)
+#     print(files)
+
+# for entry in os.scandir("."):
+#     print(entry.name,entry.is_file(),entry.is_dir())  Checks in Loop.
+
+# for entry in os.scandir("."): Prints All The files in the folder
+#     print(entry.name)
+
+# info = os.stat("Modules.py")
+# print(info)
+
+# print(os.environ) #gives environment variables dictionary
+# print(os.environ.get("PATH")) #Gives Specific Variable
+
+# os.system("dir") #runs terminal commands from python
+
+# print(os.getlogin()) #Gives The current user
+# print(os.name) #Gives Python Runs on Which os family.
+# print(os.cpu_count()) #Gives Available Cpu Counts.
 
 
 
-
+ 
 
 
 
