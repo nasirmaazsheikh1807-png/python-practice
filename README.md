@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-44_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-45_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -286,6 +286,14 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 - os.stat() — retrieve file metadata
 - os.environ — access environment variables
 - os.system() — execute an OS command
+## Day 45
+- Importing the json module
+- Python dictionary → JSON string using json.dumps()
+- JSON string → Python dictionary using json.loads()
+- Writing JSON data to a file using json.dump()
+- Reading JSON data from a file using json.load()
+- Nested JSON data
+- Pretty formatting using indent
 
 
 
