@@ -294,6 +294,37 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 - Reading JSON data from a file using json.load()
 - Nested JSON data
 - Pretty formatting using indent
+## Day 46
+- Python OOP: Inheritance & Method Reuse
+- - Created a BankAccount base class.
+- Implemented account operations like:
+  - deposit()
+  - withdraw()
+  - show_balance()
+  - transfer()
+- Created a SavingsAccount class that inherits from BankAccount.
+- Learned how inheritance allows a child class to reuse methods from its parent class.
+- Added a new add_interest() method specifically for SavingsAccount.
+- Learned how to initialize child-class attributes such as interest_rate.
+- Understood why calling a child-only method on a parent-class object causes an AttributeError.
+- Created a monthly_update() method that reuses existing methods instead of duplicating code.
+- Practiced debugging by reading errors and fixing the object/class relationship.
+- Practical Implementation:
+  - Built a small banking system where:
+
+    - Rahul has a SavingsAccount.
+    - Interest can be calculated and added to the balance.
+    - Deposits and withdrawals can be performed through inherited methods.
+    - Account balances can be displayed.
+    - Money can be transferred between accounts.
+- Inheritance is not just about creating a child class.
+
+The real benefit is *code reuse*.
+
+A child class can inherit existing functionality from the parent and then add its own specialized behavior.
+
+
+
 
 
 
