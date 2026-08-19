@@ -322,7 +322,25 @@ Not Every function needs a lambda - 'zip()' itself doesn't require one.
 The real benefit is *code reuse*.
 
 A child class can inherit existing functionality from the parent and then add its own specialized behavior.
-
+## Day 47
+1. Encapsulation
+- Used private attributes with __
+- Protected account balance from direct access
+- Updated balance through methods like:
+  - deposit()
+  - withdraw()
+  - show_balance()
+  - transfer()
+2. Abstraction
+- Learned about Python's abc module
+- Used ABC to create an Abstract Base Class
+- Used @abstractmethod to define methods that child classes must implement
+- Understood that an abstract class cannot be instantiated directly
+3. Abstract Methods
+- Created an abstract withdraw() method in BankAccount.
+- Child classes such as SavingsAccount must implement their own withdraw() method before their objects can be created.
+- ABC : Defines the blueprint.
+- @abstractmethod : Makes a method mandatory for child classes.
 
 
 
