@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-45_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-48_Days-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -341,7 +341,21 @@ A child class can inherit existing functionality from the parent and then add it
 - Child classes such as SavingsAccount must implement their own withdraw() method before their objects can be created.
 - ABC : Defines the blueprint.
 - @abstractmethod : Makes a method mandatory for child classes.
-
+## Day 48
+- Created a Bank class to manage multiple bank accounts.
+- Stored accounts using a list.
+- Added accounts using add_account().
+- Displayed all accounts using show_all_accounts().
+- Searched for an account using find_account().
+- Implemented bank-level deposit() and withdraw() methods.
+- Practiced inheritance with SavingsAccount and CurrentAccount.
+- Used super() to reuse parent class methods.
+- Worked with private attributes and encapsulation.
+- Learned how subclasses interact with private data through getter methods.
+- Practiced method overriding.
+- Used ABC and abstractmethod to understand abstraction.
+- Built and tested a basic bank management flow where accounts can be added, searched, deposited into, and withdrawn from.
+- OOP concepts are starting to connect together — Encapsulation + Inheritance + Abstraction + Polymorphism can be combined to build a cleaner and more structured system.
 
 
 
