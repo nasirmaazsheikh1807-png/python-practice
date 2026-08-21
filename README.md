@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-48_Days-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-49-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -356,7 +356,18 @@ A child class can inherit existing functionality from the parent and then add it
 - Used ABC and abstractmethod to understand abstraction.
 - Built and tested a basic bank management flow where accounts can be added, searched, deposited into, and withdrawn from.
 - OOP concepts are starting to connect together — Encapsulation + Inheritance + Abstraction + Polymorphism can be combined to build a cleaner and more structured system.
-
+## Day 49
+- Classes and Objects
+- Composition
+- Dependency Injection
+- Association
+- Aggregation
+- Abstract Classes
+- Abstract Methods
+- Polymorphism
+- Encapsulation
+- Inheritance
+- These examples helped me understand how objects interact with each other and how OOP concepts are implemented in Python.
 
 
 
