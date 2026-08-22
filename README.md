@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-49-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-50-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -368,6 +368,17 @@ A child class can inherit existing functionality from the parent and then add it
 - Encapsulation
 - Inheritance
 - These examples helped me understand how objects interact with each other and how OOP concepts are implemented in Python.
+## Day 50 
+- @staticmethod
+- Static methods without self
+- Calling static methods directly through the class
+- Understanding when a method does not need object-specific data
+- @classmethod
+- cls and class-level data
+- Difference between self and cls
+- Calling class methods directly through the class
+- A static method does not require access to the object or class.
+
 
 
 
