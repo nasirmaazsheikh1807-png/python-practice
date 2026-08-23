@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-50-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-51-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -378,7 +378,32 @@ A child class can inherit existing functionality from the parent and then add it
 - Difference between self and cls
 - Calling class methods directly through the class
 - A static method does not require access to the object or class.
-
+## Day 51
+- else and finally with exception handling
+- raise statement
+- Custom Exceptions
+- Handling Custom Exceptions with try-except
+- Magic / Dunder Methods
+- __len__()
+- __eq__()
+- __add__()
+- __lt__() and __gt__()
+- __str__() and __repr__()
+- __getitem__()
+- __contains__()
+- Method Overriding
+- super()
+- Multiple Inheritance
+- MRO (Method Resolution Order)
+- isinstance() and issubclass()
+- Abstract Classes and @abstractmethod
+- Polymorphism in practical design
+- Custom Age Exception
+- Operator Overloading
+- Magic Method Practice
+- Multiple Inheritance & MRO
+- Abstract Payment System
+- Completed the major Python OOP concepts and advanced exception handling.
 
 
 
