@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-51-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-52-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -404,6 +404,36 @@ A child class can inherit existing functionality from the parent and then add it
 - Multiple Inheritance & MRO
 - Abstract Payment System
 - Completed the major Python OOP concepts and advanced exception handling.
+## Day 52
+- Built a complete Banking System using Object-Oriented Programming in Python.
+- What I implemented:
+  - Bank Account creation
+  - Multiple account types
+  - Add accounts to Bank
+  - Duplicate account validation
+  - Find account by owner
+  - Find account by account number
+  - Deposit money
+  - Withdraw money
+  - Insufficient balance handling
+  - Money transfer between accounts
+  - Savings Account interest calculation
+  - Monthly interest update
+  - Display all account balances
+  - Account details using __str__()
+- Concepts Practiced:
+  - Classes & Objects
+  - Inheritance
+  - Encapsulation
+  - Polymorphism
+  - Method overriding
+  - Object interaction
+  - Lists of objects
+  - Conditional logic
+  - Exception/error handling concepts
+- Status : Banking System Completed
+
+
 
 
 
