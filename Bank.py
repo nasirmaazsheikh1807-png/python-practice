@@ -1,8 +1,11 @@
 print("BankAccount")
 class BankAccount:
-    def __init__(self,owner,balance,):
+    def __init__(self,owner,account_no,balance):
+        self.account_no = account_no
         self.owner = owner
         self.__balance = balance
+    def __str__(self):
+        return f"Owner: {self.owner}, Account No: {self.account_no}"
     def get_balance(self):
         return self.__balance
     def deposit(self,amount):
@@ -20,16 +23,17 @@ class BankAccount:
         if amount > self.__balance:
             print("Insufficient Balance Cannot Transfer The Money")
         else:
-            account.__balance += amount
-            self.__balance -= amount
+            account._BankAccount__balance += amount
+            self._BankAccount__balance -= amount
             print(f"${amount} Transferred To {account.owner} from {self.owner}")
 class SavingsAccount(BankAccount):
-    def __init__(self,owner,balance,interest_rate):
-        super().__init__(owner,balance)
+    def __init__(self,owner,account_no,balance,interest_rate):
+        super().__init__(owner,account_no,balance)
         self.interest_rate = interest_rate
     def add_interest(self):
-        self.__balance += (self.__balance* (self.interest_rate/100))
-        print(f"Calculated Interest for {self.owner} is {self.__balance}")
+        interest_rate = (self.get_balance()* (self.interest_rate/100))
+        self._BankAccount__balance += interest_rate
+        print(f"Calculated Interest for {self.owner} is {interest_rate}")
     def monthly_update(self):
         self.add_interest()
         self.show_balance()
@@ -41,8 +45,8 @@ class SavingsAccount(BankAccount):
                     
 
 class CurrentAccount(BankAccount):
-    def __init__(self, owner, balance):
-        super().__init__(owner, balance)
+    def __init__(self, owner,account_no, balance):
+        super().__init__(owner,account_no, balance)
     def withdraw(self,amount):
         if self.__balance - amount >= -5000:
             self.__balance -= amount
@@ -53,7 +57,11 @@ class Bank:
     def __init__(self):
         self.accounts = []
     def add_account(self,account):
-        self.accounts.append(account)
+        if self.find_account(account.owner):
+            print("Account Already Exists")
+        else:    
+            self.accounts.append(account)
+            print(f"Account Added: {account.owner}")
     def show_all_accounts(self):
         for account in self.accounts:
             account.show_balance()
@@ -61,21 +69,29 @@ class Bank:
         for account in self.accounts:
             if account.owner == owner:
                 return account
-        print("Account Not Found")
+    def find_account_by_no(self,account_no):
+        for account in self.accounts:
+            if account.account_no == account_no:
+                return account
     def deposit(self,owner,amount):
-        account =self.find_account(owner)
+        account = self.find_account(owner)
         if account:
             account.deposit(amount)
+        else:
+            print("Account Not Found")
     def withdraw(self,owner,amount):
-            account =self.find_account(owner)
+            account = self.find_account(owner)
             if account:
                 account.withdraw(amount)
+            else:
+                print("Account Not Found")
     
-account1 = SavingsAccount("Rahul",5000,5)
-account2 = CurrentAccount("Aman",3000)
+account1 = BankAccount("Rahul","AC001",10000)
+account2 = SavingsAccount("Aman","AC002",10000,5)
 bank = Bank()
-bank.add_account(account1)
 bank.add_account(account2)
+bank.add_account(account1)
+account = bank.find_account_by_no("AC002")
+account.show_balance()
+print(account)
 
-bank.deposit("Rahul",2000)
-bank.withdraw("Rahul",1000)
