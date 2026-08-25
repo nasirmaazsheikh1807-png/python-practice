@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-52-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-53-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -432,6 +432,37 @@ A child class can inherit existing functionality from the parent and then add it
   - Conditional logic
   - Exception/error handling concepts
 - Status : Banking System Completed
+## Day 53
+- Today I started DSA by learning Time Complexity and Big-O notation.
+- What Big-O represents
+- O(1) — Constant Time
+- O(log n) — Logarithmic Time
+- O(n) — Linear Time
+- O(n log n) — Linearithmic Time
+- O(n²) — Quadratic Time
+- O(2ⁿ) — Exponential Time
+- Best Case
+- Average Case
+- Worst Case
+- Sequential vs Nested loops
+- Fixed vs variable loop ranges
+- Nested loop complexity analysis
+- Recursion and Time Complexity
+- One recursive call vs branching recursion
+- Dominant terms
+- Ignoring constants in Big-O
+- Common Python List operation complexities
+- Common Dictionary operation complexities
+- Common Set operation complexities
+- Common String operation complexities
+- Python sorting complexity.
+- Sequential operations → Add complexities
+- Nested operations → Multiply complexities
+- Fixed constants are ignored
+- Dominant terms determine final Big-O
+- Halving / doubling → O(log n)
+- Linear recursion → O(n)
+- Branching recursion → O(2ⁿ)
 
 
 
