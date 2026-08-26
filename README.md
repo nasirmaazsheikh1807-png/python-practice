@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-53-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-54-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -463,6 +463,39 @@ A child class can inherit existing functionality from the parent and then add it
 - Halving / doubling → O(log n)
 - Linear recursion → O(n)
 - Branching recursion → O(2ⁿ)
+## Day 54
+- Today I completed the Space Complexity part of Big-O and practiced analyzing both Time and Extra Space Complexity.
+- Space Complexity fundamentals
+- Time vs Space Complexity
+- Extra / Auxiliary Space
+- Input space vs extra space
+- O(1) constant space
+- O(n) linear space
+- O(n²) space with 2D data
+- In-place algorithms
+- Recursion stack space
+- Recursive Time vs Space Complexity
+- Branching recursion
+- Dictionary / Set space complexity
+- Worst-case space analysis
+- Mixed Time + Space complexity problems
+- Nested loops + space analysis
+- range(i) complexity
+- Lists, sets and frequency maps
+- Practice with real Python code
+- Important Rules Learned:
+  - Processing n elements does not mean O(n) space
+  - Storing n elements means O(n) space
+  - Nested loops affect Time, not automatically Space
+  - New data stored inside loops determines Space
+  - In-place modification can give O(1) extra space
+  - One recursive chain → O(n) stack space
+  - Halving recursion can have O(log n) stack depth
+  - Branching recursion can have much higher Time while stack space may remain O(log n) or O(n), depending on recursion depth.
+- Status:
+  - Big-O / Time Complexity 
+  - Space Complexity 
+  - Mixed Complexity Practice 
 
 
 
