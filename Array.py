@@ -1,6 +1,7 @@
 # print("Traversal Of The Array")
-arr = [4,7,2,9,1,9,3]
+arr = [8,3,15,2,11,6]
 Max = arr[0]
+Min = arr[0]
 # for i in range(len(arr)):
 #     print(i,arr[i])
 
@@ -32,8 +33,11 @@ def MaxElementIdx(arr, Max):
             Max = i
     print("Found The MaxElement Index:",Max)
             
-def MinElementIdx(arr, Min):
+def MinElementIdx(arr, Mini):
     for i in range(len(arr)):
-        if arr[i] < Min:
+        if arr[i] < Mini:
             Min = i
-            print("Found The MinElement:",Min)
+            Mini = arr[i]
+    print("Found The MinElement:",Min)
+
+MinElementIdx(arr, Min)
