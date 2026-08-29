@@ -496,6 +496,31 @@ A child class can inherit existing functionality from the parent and then add it
   - Big-O / Time Complexity 
   - Space Complexity 
   - Mixed Complexity Practice 
+## Day 55
+- Started the Arrays / Lists DSA block.
+- - Array fundamentals
+- Indexing
+- Direct element access
+- Array memory / contiguous storage concept
+- Array traversal
+- Linear Search
+- Linear Search as a function
+- for...else
+- Found and Not Found cases
+- Finding maximum element
+- Finding maximum element index
+- Finding minimum element index
+- Tracking value and index separately
+- Time Complexity analysis
+- Extra Space Complexity analysis
+- Complexity Concepts Practiced:
+  - Array access → O(1)
+  - Array traversal → O(n)
+  - Linear Search:
+    - Best Case → O(1)
+    - Worst Case → O(n)
+  - Finding min/max → O(n) time, O(1) extra space.
+- When finding the minimum or maximum index, keep the value and index logically separate so that comparisons are made against the value while the index is updated when a new minimum/maximum is found.
 
 
 

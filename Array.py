@@ -1,5 +1,6 @@
 # print("Traversal Of The Array")
-arr = [8,3,15,2,11,6]
+arr = [4,7,2,9,3,6,8,1,5,7]
+arr1 = [1,2,3,4,5,6,7,8,9,0]
 Max = arr[0]
 Min = arr[0]
 # for i in range(len(arr)):
@@ -40,4 +41,30 @@ def MinElementIdx(arr, Mini):
             Mini = arr[i]
     print("Found The MinElement:",Min)
 
-MinElementIdx(arr, Min)
+def IfDuplicate(arr):
+    Duplicate = False
+    for i in range(len(arr)):
+        for j in range(i+1,len(arr)):
+            if arr[i] == arr[j]:
+                Duplicate = True
+    if Duplicate:
+        print("Duplicates Present")
+    else:
+        print("Duplicates Not Present")
+
+def DupliFreq(arr):
+    element = ()
+    freq = ()
+    for i in range(len(arr)):
+        count = 1
+        for j in range(i+1,len(arr)):
+            if arr[i] == arr[j]:
+                count += 1
+        if arr[i] not in element:
+            freq += count,
+            element += arr[i],
+            print(element,"->",freq)
+
+                
+DupliFreq(arr)
+            
