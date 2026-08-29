@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-54-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-56-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -521,6 +521,25 @@ A child class can inherit existing functionality from the parent and then add it
     - Worst Case → O(n)
   - Finding min/max → O(n) time, O(1) extra space.
 - When finding the minimum or maximum index, keep the value and index logically separate so that comparisons are made against the value while the index is updated when a new minimum/maximum is found.
+## Day 56
+- Today I continued practicing Arrays in Python and worked on basic searching and duplicate-related problems.
+- Array Traversal
+- Linear Search
+- Linear Search using Function
+- Finding Maximum Element
+- Finding Maximum Element Index
+- Finding Minimum Element
+- Finding Minimum Element Index
+- Checking for Duplicate Elements
+- Counting Frequency of Duplicate Elements
+- Using for loops to traverse arrays
+- Working with array indexes
+- Using functions for reusable logic
+- Using nested loops for duplicate detection
+- Comparing elements using indexes
+- Maintaining a separate collection of processed elements
+- Calculating element frequency using nested loops
+- Understanding Time Complexity of array operations.
 
 
 

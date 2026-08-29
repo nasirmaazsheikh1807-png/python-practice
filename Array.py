@@ -63,7 +63,7 @@ def DupliFreq(arr):
         if arr[i] not in element:
             freq += count,
             element += arr[i],
-            print(element,"->",freq)
+            print(element[i],"->",freq[i])
 
                 
 DupliFreq(arr)
