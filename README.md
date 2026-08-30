@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-56-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-57-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -540,6 +540,21 @@ A child class can inherit existing functionality from the parent and then add it
 - Maintaining a separate collection of processed elements
 - Calculating element frequency using nested loops
 - Understanding Time Complexity of array operations.
+## Day 57
+- Today I continued practicing Python problem-solving with Arrays.
+- Reverse an Array
+- Find Second Largest Element
+- Find Second Smallest Element
+- Remove Duplicates from an Array
+- Find Missing Number
+- Move All Zeros to the End
+- Difference between array values and indexes
+- Using loops for array traversal
+- Handling duplicate elements
+- Working with append() and pop()
+- Maintaining element order while modifying arrays
+- Improving logical thinking through debugging
+- Solved multiple Array-based problems and improved my understanding of loops, indexing, conditions, and list manipulation.
 
 
 
