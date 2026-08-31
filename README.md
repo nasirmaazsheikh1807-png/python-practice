@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-57-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-58-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -555,6 +555,48 @@ A child class can inherit existing functionality from the parent and then add it
 - Maintaining element order while modifying arrays
 - Improving logical thinking through debugging
 - Solved multiple Array-based problems and improved my understanding of loops, indexing, conditions, and list manipulation.
+## Day 58
+- Today I continued practicing Python Arrays and solved the following problems:
+1. Pair Sum:
+  - Practiced finding pairs whose sum is equal to a given target.
+  - Used nested loops for checking possible pairs.
+  - Understood the basic logic behind the classic Two Sum problem.
+2. Majority Element:
+  - Practiced finding the element that occurs more than n/2 times.
+  - Used nested loops and a counter to count occurrences.
+  - Learned how to compare the frequency of an element with the array size.
+3. Leader in Array
+- Found the elements which are greater than all elements to their right.
+- First experimented with a while loop.
+- Then implemented the logic using nested for loops.
+- Understood why checking elements on the right is important.
+4. Maximum Subarray Sum
+- Practiced finding the maximum sum of a contiguous subarray.
+- Used nested loops with currentSum and maxSum.
+- For the array:
+  [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+- Maximum Subarray Sum = 6
+- Maximum subarray = [4, -1, 2, 1]
+5. Best Time to Buy and Sell Stock
+- Practiced finding the maximum possible profit from stock prices.
+- Used nested loops to try different buying and selling days.
+- Learned that:
+  i represents the buying day.
+  j represents the selling day.
+- Profit is calculated as:
+  arr[j] - arr[i]
+- For:
+  [7, 1, 5, 3, 6, 4]
+- Maximum Profit = 5
+- What I Learned:
+  - Array traversal using for loops.
+  - Nested loops and their practical use.
+  - Difference between array index and array element.
+  - Maintaining current and maximum values.
+  - Finding frequency of elements.
+  - Debugging logical mistakes instead of blindly changing code.
+  - Breaking a problem into smaller logical steps.
+
 
 
 
