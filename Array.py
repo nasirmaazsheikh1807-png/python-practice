@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [0,1,0,3,12]
+arr = [7,1,5,3,6,4]
 arr1 = [1,2,3,4,5,6,7,8,9,0]
 Max = arr[1]
 secMax = arr[0]
@@ -122,4 +122,59 @@ def MoveZeros(arr):
         count -= 1
     print(arr)
 
-MoveZeros(arr)
+def PairSum(arr,target):
+    pair = []
+    for i in arr:
+        for j in arr:
+            if i + j == target:
+                pair.append(i)
+    print(pair)
+
+def MajorityElement(arr):
+    element = []
+    for i in arr:
+        count = 0
+        for j in arr:
+            if i == j:
+                count += 1
+    if count > len(arr)/2:
+        print(i)
+
+def Leader(arr):
+    for i in range(len(arr)):
+        leader = True
+        for j in range(i+1, len(arr)):
+            if arr[j]>arr[i]:
+                leader = False
+                break
+        if leader:
+            print(arr[i])
+def LeaderW(arr): #Using While
+    i = len(arr) - 1
+    max = arr[i]
+    print(arr[i])
+    while i > 0:
+        if arr[i] > max:
+            max = arr[i]
+            print(arr[i])
+        i -= 1
+
+def MaximumSubarr(arr):
+    maxSum = 0
+    for i in range(len(arr)):
+        currentSum = 0
+        for j in range(i, len(arr)):
+            currentSum += arr[j]
+            if currentSum > maxSum:
+                maxSum = currentSum
+    print("FINAL:",maxSum)
+
+def MaxProfit(arr):
+    maxProfit = 0
+    for i in range(len(arr)):
+        for j in range(i+1,len(arr)):
+            currentProfit = arr[j] - arr[i]
+            if currentProfit > maxProfit:
+                maxProfit = currentProfit
+    print("Maximum Profit:", maxProfit)
+MaxProfit(arr)
