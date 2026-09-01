@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [7,1,5,3,6,4]
+arr = [1,2,-3,-4,5,-6]
 arr1 = [1,2,3,4,5,6,7,8,9,0]
 Max = arr[1]
 secMax = arr[0]
@@ -177,4 +177,53 @@ def MaxProfit(arr):
             if currentProfit > maxProfit:
                 maxProfit = currentProfit
     print("Maximum Profit:", maxProfit)
-MaxProfit(arr)
+
+def MaxSubarr(arr):
+    maxSum = 0
+    currentSum = 0
+    for i in arr:
+        currentSum += i
+        if currentSum > maxSum:
+            maxSum = currentSum
+        if currentSum < 0:
+            currentSum = 0
+    print(maxSum)
+
+def RotateArr(arr,num):
+    new = [arr[-num],arr[num+2]]
+    a = len(arr)-(num-1)
+    for i in arr:
+        arr.pop(-num)
+        arr.pop(num+1)
+        new.append(arr)
+        break
+    print(new)
+
+def Rearrangearr(arr):
+    new = []
+    positive = []
+    negative =[]
+    for i in arr:
+        if i < 0:
+            negative.append(i)
+        else:
+            positive.append(i)
+    i = 0
+    p = 0
+    n = 0
+    while i < len(arr):
+        if i % 2 == 0:
+            new.append(positive[p])
+            p += 1
+        else:
+            new.append(negative[n])
+            n += 1
+        i += 1
+    print(new)
+        
+Rearrangearr(arr)
+        
+    
+        
+        
+
