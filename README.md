@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-58-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-59-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -596,7 +596,26 @@ A child class can inherit existing functionality from the parent and then add it
   - Finding frequency of elements.
   - Debugging logical mistakes instead of blindly changing code.
   - Breaking a problem into smaller logical steps.
+## Day 59
+- Maximum Subarray Sum
+- Maximum Profit / Stock Buy & Sell
+- Rotate Array
+- Rearrange Array — Positive & Negative
+- Nested loops for checking all possible subarrays
+- Tracking currentSum and maxSum
+- Calculating maximum profit using buy/sell pairs
+- Rotating an array using slicing and list operations
+- Separating positive and negative elements
+- Using multiple pointers/counters to construct a rearranged array
+- Understanding for loop behavior and why changing the loop variable doesn't affect the next iteration
+- Key Learning
+A complex condition-heavy approach is not always the best approach.
 
+For rearranging positive and negative elements:
+1. Separate positives and negatives.
+2. Maintain separate indices for both lists.
+3. Use the output index to decide which list to pick from.
+4. Build the final array alternately.
 
 
 

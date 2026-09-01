@@ -219,8 +219,7 @@ def Rearrangearr(arr):
             new.append(negative[n])
             n += 1
         i += 1
-    print(new)
-        
+    print(new)        
 Rearrangearr(arr)
         
     
