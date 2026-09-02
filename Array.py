@@ -1,6 +1,6 @@
 # print("Traversal Of The Array")
-arr = [1,2,-3,-4,5,-6]
-arr1 = [1,2,3,4,5,6,7,8,9,0]
+arr = [10,5,3,4,3,5,6]
+arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
 secMin = arr[0]
@@ -220,9 +220,77 @@ def Rearrangearr(arr):
             n += 1
         i += 1
     print(new)        
-Rearrangearr(arr)
-        
-    
-        
-        
 
+def RemoveDuplicates(arr):
+    new = []
+    for i in arr:
+        if i not in new:
+            new.append(i)
+    print(new)
+
+def SecLargest(arr):
+    largest = arr[0]
+    sec_largest = arr[1]
+    for i in arr:
+        if i > largest:
+            sec_largest = largest
+            largest = i
+        else:
+            if i > sec_largest and largest != i:
+                sec_largest = i
+    print(sec_largest)
+
+def FindMissingNo(arr):
+    missing = []
+    for i in range(1,len(arr)):
+        if i not in arr:
+            missing.append(i)
+            break
+    print(missing)
+
+def DupliElement(arr):
+    element = []
+    for i in arr:
+        count = 0
+        for j in arr:
+            if i == j:
+                count += 1
+        if count > 1 and i not in element:
+            element.append(i)
+    print(element)
+def ArrIntersection(arr1,arr2):
+    Intersection = []
+    for i in arr1:
+        for j in arr2:
+            if i == j:
+                Intersection.append(i)
+    print(Intersection)
+
+def FirstDuplicate(arr):
+    element = []
+    for i in arr:
+        count = 0
+        for j in arr:
+            if i == j:
+                count += 1
+        if count > 1 and i not in element:
+            element.append(i)
+            break
+    print(element)
+FirstDuplicate(arr)
+
+def MaxConsecutive(arr):
+    Max = 0
+    prev = arr[0]
+    count = 0
+    for i in arr:
+
+        if prev == i:
+            count += 1
+            prev = i
+            if count > Max:
+                Max = count
+        else:
+            count = 0   
+    print(Max)
+MaxConsecutive(arr1)
