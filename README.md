@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-59-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-60-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -616,7 +616,25 @@ For rearranging positive and negative elements:
 2. Maintain separate indices for both lists.
 3. Use the output index to decide which list to pick from.
 4. Build the final array alternately.
-
+## Day 60
+- Remove Duplicates from Array
+- Find Second Largest Element
+- Move Zeros to End
+- Find Missing Number
+- Find Duplicate Element
+- Array Intersection
+- Maximum Subarray Sum
+- Maximum Profit
+- Rearrange Positive & Negative Elements
+- Two Sum
+- First Repeating Element
+- Maximum Consecutive 1s
+- Nested loops for array comparison
+- Maintaining counters and running sums
+- Tracking maximum/minimum values
+- Rearranging elements using separate collections
+- Understanding array traversal and index-based logic
+- Debugging and building solutions without built-in shortcuts
 
 
 
