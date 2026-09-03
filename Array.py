@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [10,5,3,4,3,5,6]
+arr = [1,2,3,4]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -277,7 +277,6 @@ def FirstDuplicate(arr):
             element.append(i)
             break
     print(element)
-FirstDuplicate(arr)
 
 def MaxConsecutive(arr):
     Max = 0
@@ -293,4 +292,30 @@ def MaxConsecutive(arr):
         else:
             count = 0   
     print(Max)
-MaxConsecutive(arr1)
+def EquilibriumIdx(arr):
+    idx = []
+    for i in range(len(arr)):
+        left = 0
+        for j in range(i):
+            left += arr[j]
+
+        right = 0
+        for j in range(i+1,len(arr)):
+            right += arr[j]
+        if left == right:
+            idx.append(i)
+    print(idx)  
+
+
+def ProductArr(arr):
+    result = []
+    for i in range(len(arr)):
+        product = 1
+        for j in range(len(arr)):
+            if i == j:
+                continue
+            else:
+                product *= arr[j]
+        result.append(product)
+    print(result)
+ProductArr(arr)
