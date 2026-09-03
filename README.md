@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-60-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-61-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -635,6 +635,20 @@ For rearranging positive and negative elements:
 - Rearranging elements using separate collections
 - Understanding array traversal and index-based logic
 - Debugging and building solutions without built-in shortcuts
+## Day 61
+1. Equilibrium Index
+- Found indexes where the sum of elements on the left is equal to the sum of elements on the right.
+- Practiced separating left and right ranges.
+- Understood how to exclude the current index from both sides.
+ 2. Leaders in Array
+- Found elements that are greater than all elements to their right.
+- Practiced comparing the current element with elements on its right.
+- Improved understanding of nested loops and array traversal.
+3. Product of Array Except Self
+- Calculated the product of all elements except the current element.
+- Used nested loops and skipped the current index using continue.
+- Practiced resetting the product for every new index.
+- Debugged list vs integer multiplication issues.
 
 
 
