@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-61-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-62-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -649,6 +649,32 @@ For rearranging positive and negative elements:
 - Used nested loops and skipped the current index using continue.
 - Practiced resetting the product for every new index.
 - Debugged list vs integer multiplication issues.
+## Day 62
+- Today I continued practicing Python Arrays and solved three array problems.
+1. Rotate Array
+- Practiced rotating an array to the right by k positions.
+- Used pop() to remove the last element.
+- Used insert() to place the removed element at the beginning.
+- Understood how repeated rotations work.
+2. Left Rotate Array
+- Practiced rotating an array to the left by k positions.
+- Used pop(0) to remove the first element.
+- Used append() to place the removed element at the end.
+- Improved understanding of left and right rotation.
+3. Maximum Consecutive Ones with One Flip
+- Found the maximum number of consecutive 1`s after flipping at most one `0.
+- Practiced tracking the current consecutive count.
+- Used a flip flag to allow only one 0 to be treated as 1.
+- Improved understanding of conditional logic and consecutive elements.
+
+- Key Learnings:
+
+- Practiced array rotation using list methods.
+- Improved understanding of pop(), append(), and insert().
+- Strengthened array traversal and loop logic.
+- Practiced handling a limited operation using a flag.
+- Improved debugging and problem-solving skills.
+
 
 
 
