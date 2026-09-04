@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [1,2,3,4]
+arr = [1,1,0,1,1,1,0,1]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -318,4 +318,39 @@ def ProductArr(arr):
                 product *= arr[j]
         result.append(product)
     print(result)
-ProductArr(arr)
+
+def RotateArrRight(arr, k):
+    for i in range(k):
+        x = arr.pop()
+        arr.insert(0,x)
+    print(arr)
+
+def RotateArrLeft(arr, k):
+    for i in range(k):
+        x = arr.pop(0)
+        arr.append(x)
+    print(arr)
+
+
+def MaxConsOnesFlip(arr):
+    flip = True
+    k = 1
+    Max = 0
+    prev = arr[0]
+    count = 0
+    for i in arr:
+        if prev == i:
+            count += 1
+            prev = i
+            if count > Max:
+                Max = count
+        elif i == 0 and flip:
+            i = 1
+            count += 1
+            flip = False
+        else:
+            count = 0
+    print(Max)
+
+MaxConsOnesFlip(arr)
+    
