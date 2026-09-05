@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-62-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-63-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -674,6 +674,26 @@ For rearranging positive and negative elements:
 - Strengthened array traversal and loop logic.
 - Practiced handling a limited operation using a flag.
 - Improved debugging and problem-solving skills.
+## Day 63
+1. Subarray With Given Sum
+- Practiced finding a contiguous subarray whose sum matches a target.
+- Used nested loops and a running sum.
+- Learned how to track the starting and ending indices of the matching subarray.
+2. Maximum Product Subarray
+- Practiced finding a subarray whose product matches the target.
+- Used nested loops and a running product.
+- Learned that multiplication should be initialized with 1, not 0.
+3. Longest Consecutive Sequence
+- Practiced finding consecutive numbers in an unsorted array.
+- Learned to check whether the next consecutive value exists.
+- Tracked the sequence length using a counter.
+
+- Key Learning:
+  - Difference between array index and array value.
+  - Running sum vs running product.
+  - Multiplication identity: 1.
+  - How to identify consecutive elements even when the array is unordered.
+  - Practiced debugging logic errors independently.
 
 
 
