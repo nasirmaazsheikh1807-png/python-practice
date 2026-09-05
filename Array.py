@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [1,1,0,1,1,1,0,1]
+arr = [100,4,200,1,3,2]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -352,5 +352,44 @@ def MaxConsOnesFlip(arr):
             count = 0
     print(Max)
 
-MaxConsOnesFlip(arr)
-    
+def SubArrSum(arr, Target):
+    sub = []
+    for i in range(len(arr)):
+        currentArr = 0
+        for j in range(i,len(arr)):
+            currentArr += arr[j]
+            if currentArr > Target:
+                currentArr = 0
+            else:
+                if currentArr == Target:
+                    for k in range(i,j+1):
+                        sub.append(arr[k])
+    print(sub)
+
+def SubArrProd(arr, Target):
+    sub = []
+    for i in range(len(arr)):
+        currentArr = 1
+        for j in range(i, len(arr)):
+            currentArr *= arr[j]
+            if currentArr > Target:
+                currentArr = 0
+            else:
+                if currentArr == Target:
+                    for k in range(i,j+1):
+                        sub.append(arr[k])
+    print(sub)
+def LongConsSeq(arr):
+    seq = []
+    count = 0
+    for i in range(len(arr)):
+        for j in arr:
+            if i == j:
+                count += 1
+                if count > 1 and j+1 in arr:
+                    seq.append(j)
+                else:
+                    seq.append(j)
+    print(len(seq))
+LongConsSeq(arr)                
+
