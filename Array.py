@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [100,4,200,1,3,2]
+arr = [2,7,6,1,4,5]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -391,5 +391,55 @@ def LongConsSeq(arr):
                 else:
                     seq.append(j)
     print(len(seq))
-LongConsSeq(arr)                
+
+def LongConSubArr(arr,k):
+    MaxArr = 0
+    for i in range(len(arr)):
+        sum = 0
+        currentArr = 0
+        for j in range(i,len(arr)):
+            sum += arr[j]
+            if sum <= k:
+                currentArr += 1
+                if currentArr > MaxArr:
+                    MaxArr = currentArr
+            elif sum > k:
+                currentArr = 0
+                sum = 0
+        
+    print(MaxArr)
+
+def Equalzerones(arr):
+    zero = 0
+    one = 0
+    idx = 0
+    for i in range(len(arr)):
+        if arr[i] == 0:
+            zero += 1
+        elif arr[i] == 1:
+            one += 1
+        
+            if zero == one:
+                idx = i
+    print(idx)
+
+def LongSubArrDiv(arr,k):
+    MaxArr = 0
+    for i in range(len(arr)):
+        currentArr = 0
+        sum = 0
+        for j in range(i,len(arr)):
+            sum += arr[j]
+            currentArr += 1
+            if currentArr > MaxArr:
+                currentArr = MaxArr
+            if sum % k == 0:
+                sum = 0
+                currentArr = 0
+    print(MaxArr)
+LongSubArrDiv(arr,3)
+
+
+
+
 
