@@ -431,11 +431,9 @@ def LongSubArrDiv(arr,k):
         for j in range(i,len(arr)):
             sum += arr[j]
             currentArr += 1
-            if currentArr > MaxArr:
-                currentArr = MaxArr
             if sum % k == 0:
-                sum = 0
-                currentArr = 0
+                if currentArr > MaxArr:
+                    MaxArr = currentArr
     print(MaxArr)
 LongSubArrDiv(arr,3)
 
