@@ -695,6 +695,38 @@ For rearranging positive and negative elements:
   - How to identify consecutive elements even when the array is unordered.
   - Practiced debugging logic errors independently.
 
+## Day 64
+- - Subarray problems
+- Longest subarray with sum <= K
+- Longest subarray with equal 0s and 1s
+- Longest subarray with sum divisible by K
+- Brute-force subarray approach using nested loops
+- Tracking current and maximum subarray length
+- Understood how to work with contiguous subarrays.
+- Practiced resetting variables for every new starting index.
+- Learned when to update the maximum length.
+- Practiced using conditions to validate subarrays.
+- Strengthened nested-loop logic and index handling.
+- Longest Subarray with Sum <= K
+- Longest Subarray with Equal 0s and 1s
+- Longest Subarray with Sum Divisible by K
+
+## Day 65
+- Subarray problems
+- Longest subarray with sum <= K
+- Longest subarray with equal 0s and 1s
+- Longest subarray with sum divisible by K
+- Brute-force subarray approach using nested loops
+- Tracking current and maximum subarray length
+- Understood how to work with contiguous subarrays.
+- Practiced resetting variables for every new starting index.
+- Learned when to update the maximum length.
+- Practiced using conditions to validate subarrays.
+- Strengthened nested-loop logic and index handling.
+- Longest Subarray with Sum <= K
+- Longest Subarray with Equal 0s and 1s
+- Longest Subarray with Sum Divisible by K
+
 
 
 

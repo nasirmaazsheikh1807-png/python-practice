@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [2,7,6,1,4,5]
+arr = [1,2,1,0,1,1,0]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -435,9 +435,65 @@ def LongSubArrDiv(arr,k):
                 if currentArr > MaxArr:
                     MaxArr = currentArr
     print(MaxArr)
-LongSubArrDiv(arr,3)
 
+def MaxSumCons(arr,k):
+    MaxSum = 0
+    for i in range(len(arr)):
+        CurrentSum = 0
+        j = 0
+        while j <= k:
+            CurrentSum += arr[j]
+            j += 1
+            if CurrentSum > MaxSum:
+                MaxSum = CurrentSum
+    print(MaxSum)
 
+def MaxSumConsn(arr,k):
+    MaxSum = 0
+    CurrentSum = 0
+    prevSum = 0
+    for i in range(k):
+        prevSum += arr[i]
+        if CurrentSum > MaxSum:
+            MaxSum = CurrentSum
+    for j in range(k,len(arr)):
+        CurrentSum = prevSum - arr[j-k] + arr[j]
+        prevSum = CurrentSum
+        if CurrentSum > MaxSum:
+            MaxSum = CurrentSum
+    
+    print(MaxSum)
 
+def MaxAvgSub(arr,k):
+    CurrentAvg = 0
+    MaxAvg = 0
+    prevSum = 0
+    currentSum = 0
+    for i in range(k):
+        prevSum += arr[i]
+        prevAvg = prevSum/k
+    for j in range(k,len(arr)):
+        currentSum = prevSum - arr[j-k] + arr[j]
+        CurrentAvg = currentSum/k
+        prevSum = currentSum
+        if CurrentAvg > MaxAvg:
+            MaxAvg = CurrentAvg
+    print(MaxAvg)
 
+def LongestSubArr(arr,k):
+    sum = 0
+    sub = []
+    MaxSub = 0
+    for i in range(len(arr)):
+        sum += arr[i]
+        if sum <= k:
+            sub.append(arr[i])
+            if len(sub) > MaxSub:
+                MaxSub = len(sub)
+        while sum >= k:
+            sub.pop(0)
+            sum -= i
+    print(MaxSub)
+LongestSubArr(arr,4)
 
+        
