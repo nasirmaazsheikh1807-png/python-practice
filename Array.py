@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [1,2,1,0,1,1,0]
+arr = [1,2,1,2,3]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -494,6 +494,34 @@ def LongestSubArr(arr,k):
             sub.pop(0)
             sum -= i
     print(MaxSub)
-LongestSubArr(arr,4)
 
-        
+def LongSubArrKzero(arr,k):
+    sub = []
+    MaxSub = 0
+    one = 0
+    zero = 0
+    for i in range(len(arr)):
+        if arr[i] == 0:
+            zero += 1
+        if arr[i] == 1:
+            one += 1
+        if zero <= k:
+            sub.append(arr[i])
+            if len(sub) > MaxSub:
+                MaxSub = len(sub)
+            while zero >= k:
+                sub.remove(0)
+                zero -= 1
+    print(MaxSub)
+
+def LongSubDistinct(arr,k):
+    sub = []
+    MaxSub = 0
+    for i in range(len(arr)):
+        sub.append(arr[i])
+        while len(set(sub)) > k:
+            sub.pop(0)   
+            if len(sub) > MaxSub:
+                MaxSub = len(sub)
+    print(MaxSub)
+LongSubDistinct(arr,2)
