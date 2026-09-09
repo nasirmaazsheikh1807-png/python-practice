@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-63-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-66-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -726,6 +726,23 @@ For rearranging positive and negative elements:
 - Longest Subarray with Sum <= K
 - Longest Subarray with Equal 0s and 1s
 - Longest Subarray with Sum Divisible by K
+
+## Day 66
+- Today I practiced *Sliding Window* problems and worked on both fixed-size and variable-size window concepts.
+- Fixed-size Sliding Window
+- Maximum Sum Subarray of Size K
+- Maximum Average Subarray of Size K
+- Longest Subarray with Sum ≤ K
+- Longest Subarray with At Most K Zeros
+- Longest Subarray with At Most K Distinct Elements
+- Understood how a sliding window moves through an array.
+- Learned how to add a new element and remove the outgoing element.
+- Practiced using i - k to identify the element leaving a fixed-size window.
+- Understood how to maintain a variable-size window using conditions.
+- Learned how set() can be used to count distinct elements.
+- Practiced shrinking the window when the condition is violated.
+- Improved understanding of indexing and window boundaries.
+- Solved multiple Sliding Window problems using Python and debugged different indexing and window-maintenance mistakes along the way.
 
 
 
