@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [1,2,1,2,3]
+arr = [2,7,11,15]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -524,4 +524,33 @@ def LongSubDistinct(arr,k):
             if len(sub) > MaxSub:
                 MaxSub = len(sub)
     print(MaxSub)
-LongSubDistinct(arr,2)
+
+def FreqCounterDict(arr):
+    freq = {}
+    for i in arr:
+        if 0 <= i <= 9:
+            if i in freq:
+                freq[i] += 1
+            else:
+                freq[i] = 1
+    print(freq)
+def NonRepEle(arr):
+    new = {}
+    for i in arr:
+        if 0 <= 1 <= 9:
+            if i in new:
+                new[i] += 1
+            else:
+                new[i] = 1
+    for key,value in new.items():
+        if value == 1:
+            print(key)
+            break
+def TwoSum(arr,target):
+    new = {}
+    for i in arr:
+        if target - i:
+            new.update[i]
+    print(new)
+
+TwoSum(arr,9)
