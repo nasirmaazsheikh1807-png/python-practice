@@ -549,8 +549,9 @@ def NonRepEle(arr):
 def TwoSum(arr,target):
     new = {}
     for i in arr:
-        if target - i:
-            new.update[i]
-    print(new)
+        if target - i in new:
+            print(target-i , i)
+        else:
+            new[i] = i
 
 TwoSum(arr,9)
