@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-67-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-68-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -761,7 +761,22 @@ For rearranging positive and negative elements:
 - Practiced reducing Two Sum from O(n²) to O(n) time complexity.
 - Improved understanding of when to store and when to search in a dictionary.
 
-
+## Day 68
+- Today I practiced *Hashing / Dictionary* based problems and learned how dictionaries can be used for fast lookups.
+- Dictionary as HashMap
+- Frequency Counting
+- First Non-Repeating Element
+- Two Sum using HashMap
+- Key-Value lookup
+- Fast element lookup using Dictionary
+- Time and Space Complexity
+- Learned how to store element frequencies using a dictionary.
+- Understood how to find the first non-repeating element.
+- Learned the target - current_element approach for Two Sum.
+- Understood how HashMap can eliminate nested loops.
+- Learned that dictionary lookup takes O(1) average time.
+- Practiced reducing Two Sum from O(n²) to O(n) time complexity.
+- Improved understanding of when to store and when to search in a dictionary.
 
 
 
