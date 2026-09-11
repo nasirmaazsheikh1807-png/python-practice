@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [2,7,11,15]
+arr = [1,5,7,-1,5]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -554,4 +554,14 @@ def TwoSum(arr,target):
         else:
             new[i] = i
 
-TwoSum(arr,9)
+def CountPairSum(arr,target):
+    new = {}
+    count = 0
+    for i in arr:
+        if target - i in new:
+            new[i] = target - i
+            count += 1
+        else:
+            new[i] = i
+    print(count)
+CountPairSum(arr,6)
