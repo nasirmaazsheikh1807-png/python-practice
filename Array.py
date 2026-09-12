@@ -602,14 +602,15 @@ def FindMissNo(arr):
 def LongConsSeq(arr):
     freq = {}
     count = 0
-    for i in range(len(arr) +1):
+    for i in arr:
         if i in freq:
             freq[i] += i
         else:
             freq[i] = 1
-        if freq[i] in arr:
+    for key,value in freq.items():
+        if key and  key + 1 in arr:
             count += 1
-    print(count)
+    print(count + 1)
 LongConsSeq(arr)
 
         
