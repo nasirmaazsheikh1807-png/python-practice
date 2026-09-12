@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-68-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-69-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -777,6 +777,24 @@ For rearranging positive and negative elements:
 - Learned that dictionary lookup takes O(1) average time.
 - Practiced reducing Two Sum from O(n²) to O(n) time complexity.
 - Improved understanding of when to store and when to search in a dictionary.
+
+## Day 69
+- Today I practiced *Hashing and Dictionary-based Array Problems* and worked on using dictionaries to track elements and frequency.
+- Frequency Count using Dictionary
+- Majority Element
+- First Repeating Element
+- Missing Number
+- Longest Consecutive Sequence
+- Dictionary Lookup
+- Key and Value handling
+- Counting elements using Dictionary
+- Learned how dictionaries can be used to store element frequencies.
+- Practiced checking whether an element exists as a dictionary key.
+- Understood the difference between dictionary keys and values.
+- Learned how key + 1 can be used to check consecutive elements.
+- Improved understanding of counting and tracking elements.
+- Debugged logic related to dictionary lookups and counting.
+- Solved multiple array problems using dictionaries and improved the logic step-by-step by debugging mistakes.
 
 
 
