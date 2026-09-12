@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [1,5,7,-1,5]
+arr = [100,4,200,1,3,2]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -564,4 +564,52 @@ def CountPairSum(arr,target):
         else:
             new[i] = i
     print(count)
-CountPairSum(arr,6)
+
+def MajorityElement(arr):
+    freq = {}
+    n = len(arr)
+    for i in arr:
+        if i in freq:
+            freq[i] += 1
+        else:
+            freq[i] = 1
+        if freq[i] > n/2:
+            print(i)
+
+def FirstRepElement(arr):
+    freq = {}
+    for i in arr:
+        if i in freq:
+            freq[i] += 1
+        else:
+            freq[i] = 1
+        if freq[i] == 2:
+            print(i)
+            break
+
+def FindMissNo(arr):
+    MissingNo = 0
+    freq = {}
+    for i in range(len(arr) + 1):
+        if i in freq:
+            freq[i] += i
+        else:
+            freq[i] = i
+        if freq[i] not in arr:
+            MissingNo += i
+    print(MissingNo)
+
+def LongConsSeq(arr):
+    freq = {}
+    count = 0
+    for i in range(len(arr) +1):
+        if i in freq:
+            freq[i] += i
+        else:
+            freq[i] = 1
+        if freq[i] in arr:
+            count += 1
+    print(count)
+LongConsSeq(arr)
+
+        
