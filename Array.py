@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr = [100,4,200,1,3,2]
+arr =[1,2,3,4,5]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -611,6 +611,30 @@ def LongConsSeq(arr):
         if key and  key + 1 in arr:
             count += 1
     print(count + 1)
-LongConsSeq(arr)
 
-        
+def Twosum(arr,target):
+    new = {}
+    partner = 0
+    for i in arr:
+        if  target - i in new:
+            partner = target- i
+            print(i, partner)
+        else:
+            new[i] = i
+
+def SubSum(arr,k):
+    s = 0
+    prefix = 0
+    new = {0:1}
+    for  i,value in enumerate(arr):
+        prefix += value
+        previous = prefix - k 
+        if prefix - k  in new:
+            start = new[prefix-k]+1
+            print(arr[start:i+1])
+
+        if prefix not in new:
+            new[prefix] = i
+
+    
+SubSum(arr,9)
