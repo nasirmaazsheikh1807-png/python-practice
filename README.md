@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-69-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-70-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -795,6 +795,25 @@ For rearranging positive and negative elements:
 - Improved understanding of counting and tracking elements.
 - Debugged logic related to dictionary lookups and counting.
 - Solved multiple array problems using dictionaries and improved the logic step-by-step by debugging mistakes.
+
+## Day 70
+- Today I practiced *Prefix Sum* problems and worked on finding subarrays with a target sum.
+- Prefix Sum
+- Prefix Sum + Hash Map
+- Subarray Sum Equals K
+- Finding the starting and ending indexes of a subarray
+- Using enumerate() for index + value
+- Storing prefix sums with their indexes
+- Understood how prefix sum helps find subarrays efficiently.
+- Learned why {0: -1} is used to handle subarrays starting from index 0.
+- Practiced storing prefix sums and their indexes in a dictionary.
+- Learned how to calculate the starting index using the previous prefix-sum index.
+- Improved understanding of enumerate() and array slicing.
+- Solved the *Subarray Sum Equals K* problem and debugged multiple indexing and dictionary-related mistakes.
+
+
+
+
 
 
 
