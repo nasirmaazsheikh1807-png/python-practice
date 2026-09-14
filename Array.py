@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr =[1,2,3,4,5]
+arr =[3,4,7,2,-3,1,4,2]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -623,7 +623,6 @@ def Twosum(arr,target):
             new[i] = i
 
 def SubSum(arr,k):
-    s = 0
     prefix = 0
     new = {0:1}
     for  i,value in enumerate(arr):
@@ -636,5 +635,36 @@ def SubSum(arr,k):
         if prefix not in new:
             new[prefix] = i
 
-    
-SubSum(arr,9)
+def SubSumCount(arr,target):
+    new = {0:-1}
+    prefix = 0
+    count = 0
+    for i,value in enumerate(arr):
+        prefix += value
+        previous = prefix - target
+        if prefix - target in new:
+            start = new[prefix-target]+1
+            print(len(arr[start:i+1]))
+            count += 1
+        if prefix not in new:
+            new[prefix] = i
+    print("#",count)
+
+def SubSumDiv(arr,target):
+    new = {0:1}
+    prefix = 0
+    count = 0
+    for i,value in enumerate(arr):
+        prefix += value
+        reminder = prefix % target
+        if reminder in new:
+            start = new[prefix % target]+1
+            print((arr[start:i+1]))
+            count += 1
+        if reminder not in new:
+            new[reminder] = i
+    print("#",count)
+SubSumDiv(arr,5)
+
+
+
