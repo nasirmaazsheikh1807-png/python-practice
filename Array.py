@@ -662,7 +662,7 @@ def SubSumDiv(arr,target):
             print((arr[start:i+1]))
             count += 1
         if reminder not in new:
-            new[reminder] = i
+            new[reminder] = count
     print("#",count)
 SubSumDiv(arr,5)
 
