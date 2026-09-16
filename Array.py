@@ -697,15 +697,15 @@ def TwoPointerRemDuplicate(arr):
     res = 1
     check = 1
     while check < len(arr):
-        if arr[check] == arr[check-1]:
-            check += 1
-            continue
-        arr[place + 1] = arr[check]
+        if arr[check] != arr[place]:
+            place += 1
+            arr[place] = arr[check]
+            res += 1
         check += 1
-        res += 1
-        place += 1
-    print(arr[res])
-TwoPointerRemDuplicate(arr)
+        
+    return arr[:res]
+result = TwoPointerRemDuplicate(arr)
+print(result)
 
         
 

@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-71-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-72-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -826,6 +826,26 @@ For rearranging positive and negative elements:
 - Practiced using a dictionary to store remainder frequencies.
 - Debugged indexing and dictionary-update mistakes.
 - Solved the *Subarray Sum Divisible by K* problem and debugged the prefix remainder frequency logic.
+
+## Day 72
+- Today I practiced array problems using the *Two Pointer* and *HashMap* techniques
+1. Two Pointer
+- Understood the concept of using two pointers to solve array problems efficiently.
+- Solved *Two Sum* using the Two Pointer approach.
+- Practiced *Remove Duplicates from Sorted Array* using Two Pointers.
+- Understood how pointers move depending on the condition.
+2. HashMap
+- Solved *Remove Duplicates* using a HashMap/Dictionary.
+- Used a dictionary to keep track of elements that were already encountered.
+- Understood how HashMap provides fast lookup.
+Key Concepts
+
+- Two Pointer Technique
+- HashMap / Dictionary
+- Array Traversal
+- Duplicate Removal
+- Efficient Searching
+- Time & Space Complexity
 
 
 
