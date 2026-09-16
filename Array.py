@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr =[3,4,7,2,-3,1,4,2]
+arr =[1,1,1,2,2,3]
 arr1 = [1,1,0,1,1,1,0,1]
 Max = arr[1]
 secMax = arr[0]
@@ -664,7 +664,48 @@ def SubSumDiv(arr,target):
         if reminder not in new:
             new[reminder] = count
     print("#",count)
-SubSumDiv(arr,5)
 
+def Twosumm(arr,target):
+    result = []
+    new = {}
+    for i,value in enumerate(arr):
+        element = target - value
+        if target - value in new:
+            result.append(i)
+            result.append(new[element])
+        else:
+            new[value] = i
+    print(result)
 
+def TwoPointerTwoSum(arr,Target):
+    left = 0
+    right = len(arr) - 1
+    while left < right:
+        total = arr[left] + arr[right]
+        if total == Target:
+            print(left , right)
+            break
+        elif total > Target:
+            right -= 1
+        elif total < Target:
+            left += 1
+        else:
+            print("Error Target Not found!")
+
+def TwoPointerRemDuplicate(arr):
+    place = 0
+    res = 1
+    check = 1
+    while check < len(arr):
+        if arr[check] == arr[check-1]:
+            check += 1
+            continue
+        arr[place + 1] = arr[check]
+        check += 1
+        res += 1
+        place += 1
+    print(arr[res])
+TwoPointerRemDuplicate(arr)
+
+        
 

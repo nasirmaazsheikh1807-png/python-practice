@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-70-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-71-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -811,7 +811,21 @@ For rearranging positive and negative elements:
 - Improved understanding of enumerate() and array slicing.
 - Solved the *Subarray Sum Equals K* problem and debugged multiple indexing and dictionary-related mistakes.
 
-
+## Day 71
+- Today I practiced *Prefix Sum with Remainders* and worked on finding subarrays whose sum is divisible by a target.
+- Prefix Sum
+- Remainder technique
+- Subarray Sum Divisible by K
+- Frequency of remainders
+- Dictionary for storing prefix remainder frequencies
+- Counting multiple valid subarrays
+- Understood how prefix sums can be used to find subarrays efficiently.
+- Learned why prefix_sum % k is important for divisibility problems.
+- Understood that the same remainder can occur multiple times.
+- Learned that the frequency of a remainder tells how many new valid subarrays can be formed.
+- Practiced using a dictionary to store remainder frequencies.
+- Debugged indexing and dictionary-update mistakes.
+- Solved the *Subarray Sum Divisible by K* problem and debugged the prefix remainder frequency logic.
 
 
 
