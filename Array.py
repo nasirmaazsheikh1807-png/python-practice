@@ -1,6 +1,6 @@
 # print("Traversal Of The Array")
-arr =[1,1,1,2,2,3]
-arr1 = [1,1,0,1,1,1,0,1]
+arr =[1,2,3,0,0,0]
+arr1 = [2,5,6]
 Max = arr[1]
 secMax = arr[0]
 secMin = arr[0]
@@ -706,6 +706,70 @@ def TwoPointerRemDuplicate(arr):
     return arr[:res]
 result = TwoPointerRemDuplicate(arr)
 print(result)
+
+def SquareSortedArr(arr):
+    neg = []
+    pos = []
+    for i in arr:
+        if i < 0:
+            neg.append(i)
+        else:
+            pos.append(i)
+    #Case 1 : If no neg element:
+    if len(neg) == 0:
+        return [x*x for x in pos]
+    #Case 2: If no pos Element:
+    if len(pos) == 0:
+        neg = [x*x for x in neg]
+        neg.reverse()
+        return neg
+    #Case 3: If Both Pos And Neg Element present:
+    neg = [x*x for x in neg][::-1]
+    pos = [x*x for x in pos]
+    res = []
+    n,m = len(neg) , len(pos)
+    i = j = 0
+    while i < n and j < m:
+        if neg[i] <= pos[j]:
+            res.append(neg[i])
+            i += 1
+        else:
+            res.append(pos[j])
+            j += 1
+    while i < n:
+        res.append(neg[i])
+        i += 1
+    while j < m:
+        res.append(pos[j])
+        j += 1
+    return res
+
+def MergeSortedArr(arr,arr1):
+    k = 5
+    i = j = 2
+    while i >= 0 and j >= 0:
+        if arr[i] >= arr1[j]:
+            arr[k] = arr[i]
+            i -= 1
+        else:
+            arr[k] = arr1[j]
+            j -= 1
+        k -= 1
+    while j >= 0:
+        arr[k] = arr[j]
+        j -= 1
+        k -= 1
+    while i > = 0:
+        arr[k] = arr[i]
+        i -= 1
+        k -= 1
+    return arr
+result = MergeSortedArr(arr,arr1)
+print(result)
+
+
+
+            
 
         
 
