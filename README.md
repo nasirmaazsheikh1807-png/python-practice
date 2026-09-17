@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-72-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-73-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -846,7 +846,28 @@ Key Concepts
 - Duplicate Removal
 - Efficient Searching
 - Time & Space Complexity
-
+## Day 73
+1. Merge Sorted Array
+- Solved the Merge Sorted Array problem using the Two Pointer technique.
+- Used three pointers:
+  - i → last valid element of the first array
+  - j → last element of the second array
+  - k → last position of the first array
+- Compared elements from the end and placed the larger element at the back.
+- Performed the merge in-place without using an extra array.
+2. Squares of a Sorted Array
+- Solved the Squares of a Sorted Array problem.
+- Handled both negative and positive numbers.
+- Used the Two Pointer technique to compare values from both ends.
+- Placed the larger square in the result array from the back.
+- Maintained sorted order efficiently.
+ Key Learnings:
+- Learned how Two Pointers can be used from the *end of an array*.
+- Understood how to perform an *in-place merge*.
+- Learned why merging from the back prevents overwriting useful elements.
+- Understood that squaring a sorted array does not automatically produce a sorted array.
+- Practiced careful pointer movement and boundary conditions.
+- Improved understanding of in-place array manipulation
 
 
 

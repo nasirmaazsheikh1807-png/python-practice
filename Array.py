@@ -759,7 +759,7 @@ def MergeSortedArr(arr,arr1):
         arr[k] = arr[j]
         j -= 1
         k -= 1
-    while i > = 0:
+    while i >= 0:
         arr[k] = arr[i]
         i -= 1
         k -= 1
