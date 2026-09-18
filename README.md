@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
-![Days](https://img.shields.io/badge/Progress-73-orange?style=for-the-badge)
+![Days](https://img.shields.io/badge/Progress-74-orange?style=for-the-badge)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/nasirmaazsheikh1807-png/python-practice?style=for-the-badge)
 
@@ -868,6 +868,51 @@ Key Concepts
 - Understood that squaring a sorted array does not automatically produce a sorted array.
 - Practiced careful pointer movement and boundary conditions.
 - Improved understanding of in-place array manipulation
+## Day 74
+- Today I continued practicing *Arrays and the Two Pointer technique* by solving problems that involve finding combinations of three elements.
+
+The main focus was on understanding how a *fixed element + two pointers* can be used to solve 3-element problems efficiently.
+
+1. 3Sum
+
+*Problem:*  
+Given an integer array, find all unique triplets whose sum is equal to 0.
+
+-  Approach:
+
+- First, sort the array.
+- Fix one element using a loop.
+- Use two pointers:
+  - left = i + 1
+  - right = n - 1
+- Calculate the sum of the three elements.
+- If the sum is:
+  - 0 → store the triplet.
+  - Less than 0 → move left forward.
+  - Greater than 0 → move right backward.
+- Skip duplicate values to avoid duplicate triplets.
+
+2. 3Sum Closest
+
+*Problem:*  
+Given an integer array and a target value, find three integers whose sum is closest to the target.
+- Approach:
+
+- Sort the array.
+- Fix one element using a loop.
+- Set two pointers:
+  - left = i + 1
+  - right = n - 1
+- Calculate the current sum:
+- What I Learned Today:
+- How to apply the Two Pointer technique to 3-element problems.
+- Why sorting is important before applying Two Pointers.
+- How to use one fixed element with two moving pointers.
+- How to handle duplicate elements in 3Sum.
+- How pointer movement depends on the current sum.
+- Difference between finding an exact target and finding the closest target.
+- How to debug pointer movement and array index errors.
+- Improved understanding of array boundaries and indexing.
 
 
 

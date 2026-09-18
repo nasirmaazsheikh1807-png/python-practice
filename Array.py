@@ -791,9 +791,32 @@ def TripletSumZero(arr):
             else:
                 right -= 1
     return result
-result = TripletSumZero(arr)
-print(result)
 
+def ThreesomeClosest(arr,target):
+    arr.sort()
+    diff = float('inf')
+    res_sum = 0
+    n = len(arr)
+    for i in range(n-2):
+        left = i + 1
+        right = n - 1
+
+        while left < right:
+            total = arr[i] +arr[left] + arr[right] 
+            d = abs(target - total)
+
+            if diff > d:
+                d = diff
+                res_sum = total
+            if total == target:
+                return res_sum
+            if total < target:
+                left += 1
+            else:
+                right -= 1
+    return res_sum    
+result = ThreesomeClosest(arr,1)
+print(result)
 
 
 
