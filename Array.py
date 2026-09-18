@@ -1,5 +1,5 @@
 # print("Traversal Of The Array")
-arr =[1,2,3,0,0,0]
+arr =[-1,0,1,2,-1,4]
 arr1 = [2,5,6]
 Max = arr[1]
 secMax = arr[0]
@@ -745,8 +745,9 @@ def SquareSortedArr(arr):
     return res
 
 def MergeSortedArr(arr,arr1):
-    k = 5
-    i = j = 2
+    k = m + n -1
+    i = m = 3
+    j = n = 3
     while i >= 0 and j >= 0:
         if arr[i] >= arr1[j]:
             arr[k] = arr[i]
@@ -764,8 +765,40 @@ def MergeSortedArr(arr,arr1):
         i -= 1
         k -= 1
     return arr
-result = MergeSortedArr(arr,arr1)
+
+def TripletSumZero(arr):
+    arr = sorted(arr)
+    n = len(arr)
+    result = []
+    for i in range(0, n-2):
+        left = i + 1
+        right = n-1
+        sum = -1 * arr[i]
+        if i > 0 and arr[i] == arr[i-1]:
+            continue
+        while left < right:
+            s = arr[left] + arr[right]
+            if s == sum:
+                result.append([arr[left], arr[right] , arr[i]])
+                left += 1
+                right -= 1
+                while left < right and arr[left] == arr[left-1]:
+                    left += 1
+                while right > n-1 and arr[right] == arr[right+1]:
+                    right -= 1
+            elif s < sum:
+                left += 1
+            else:
+                right -= 1
+    return result
+result = TripletSumZero(arr)
 print(result)
+
+
+
+
+
+
 
 
 
